@@ -12,9 +12,9 @@
             <h1>HavenNFTs</h1>
         </header>
         <nav>
-            <p class="section header">Home</p>
-            <p class="section header">Men's Sports</p>
-            <p class="section header">Women's Sports</p>
+            <p class="navigation-bar">Home</p>
+            <p class="navigation-bar">Men's Sports</p>
+            <p class="navigation-bar">Women's Sports</p>
         </nav>
         <aside>
             <p>Aside</p>
