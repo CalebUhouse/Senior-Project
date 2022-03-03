@@ -12,9 +12,20 @@
             <h1>HavenNFTs</h1>
         </header>
         <nav>
-            <p class="navigation-bar">Home</p>
-            <p class="navigation-bar">Men's Sports</p>
-            <p class="navigation-bar">Women's Sports</p>
+            <div class="navigation-bar">Home</div>
+            <div class="navigation-bar dropdown">
+                <button>Men's Sports</button>
+                <div class="dropdown-content">
+                    <a href="MBasketball.php">Basketball</a>
+                    <a href="MSoccer.php">Soccer</a>
+                </div>
+            </div>
+            <div class="navigation-bar dropdown">
+                <button>Women's Sports</button>
+                <div class="dropdown-content">
+
+                </div>
+            </div>
         </nav>
         <aside>
             <p>Aside</p>

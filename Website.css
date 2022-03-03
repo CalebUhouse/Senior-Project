@@ -1,5 +1,4 @@
-main
-{
+main    {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-gap: 5px 5px;
@@ -9,44 +8,62 @@ main
         "footer    footer"
     ;
 }
-body 
-{
+body    {
     background-color: firebrick;
 }
-header
-{
+header  {
     border: 2px solid black;
     grid-area: header;
 }
-nav
-{
+nav     {
     border: 2px solid black;
     grid-area: nav;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     min-height: 20px;
 }
-aside
-{
+aside   {
     border: 2px solid black;
     grid-area: aside;
 }
-section
-{
+section {
     border: 2px solid black;
     grid-area: section;
 }
-footer
-{
+footer  {
     border: 2px solid black;
     grid-area: footer;
 }
-.section-header
-{
+.section-header {
     text-align: center;
 }
-.navigation-bar
-{
+.navigation-bar {
     font-size: 20px;
     text-align: center;
+    top: 35%
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
 }
