@@ -1,1 +1,47 @@
-
+main
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 5px 5px;
+    grid-template-areas: 
+        "header    nav"
+        "aside     section"
+        "footer    footer"
+    ;
+}
+body 
+{
+    background-color: firebrick;
+}
+header
+{
+    border: 2px solid black;
+    grid-area: header;
+}
+nav
+{
+    border: 2px solid black;
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 20px;
+}
+aside
+{
+    border: 2px solid black;
+    grid-area: aside;
+}
+section
+{
+    border: 2px solid black;
+    grid-area: section;
+}
+footer
+{
+    border: 2px solid black;
+    grid-area: footer;
+}
+.section-header
+{
+    text-align: center;
+}
