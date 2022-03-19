@@ -9,21 +9,24 @@
 <body class="website-color">
     <main>
         <header class="section-header">
-            <h1>HavenNFTs</h1>
+            <a href="Index.php" class="heading webtext">HavenNFTs</a>
         </header>
         <nav>
-            <div class="navigation-bar">Home</div>
+            <div class="navigation-bar">
+                <button class="sportsnav regbtn" href="Index.php">Home</button>
+            </div>
             <div class="navigation-bar dropdown">
-                <button>Men's Sports</button>
-                <div class="dropdown-content">
+                <button class="sportsnav dropbtn" onclick="myFunction('men-Dropdown')">Men's Sports</button>
+                <div id="men-Dropdown" class="dropdown-content">
                     <a href="MBasketball.php">Basketball</a>
                     <a href="MSoccer.php">Soccer</a>
                 </div>
             </div>
             <div class="navigation-bar dropdown">
-                <button>Women's Sports</button>
-                <div class="dropdown-content">
-
+                <button class="sportsnav dropbtn" onclick="myFunction('women-Dropdown')">Women's Sports</button>
+                <div id="women-Dropdown" class="dropdown-content">
+                    <a href="WBasketball.php">Basketball</a>
+                    <a href="WSoccer.php">Soccer</a>
                 </div>
             </div>
         </nav>
