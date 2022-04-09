@@ -20,6 +20,8 @@
                 <div id="men-Dropdown" class="dropdown-content">
                     <a href="MBasketball.php">Basketball</a>
                     <a href="MSoccer.php">Soccer</a>
+                    <a href="MFootball.php">Football</a>
+                    <a href="Baseball.php">Baseball</a>
                 </div>
             </div>
             <div class="navigation-bar dropdown">
@@ -27,6 +29,7 @@
                 <div id="women-Dropdown" class="dropdown-content">
                     <a href="WBasketball.php">Basketball</a>
                     <a href="WSoccer.php">Soccer</a>
+                    <a href="Softball.php">Softball</a>
                 </div>
             </div>
         </nav>
