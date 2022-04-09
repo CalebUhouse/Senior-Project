@@ -31,13 +31,17 @@
             </div>
         </nav>
         <aside>
-            <p>Aside</p>
+            <p>HavenNFT's is a website built to promote and give recognition to the athletes of Lock Haven University. Each of the
+                atheletes are given an NFT that belongs to them and behaves as if it was a virtual trading card. Only the athelete would 
+                own their card however so there would be only one copy of the NFT in existence.
+            </p>
         </aside>
         <section>
             <p>Section</p>
         </section>
         <footer>
-            <p>Footer</p>
+            <p class="centered">Something Not Look Right?</p>
+            <p class="centered">Email cmu8706@lockhaven.edu for support!</p>
         </footer>
     </main>
 </body>

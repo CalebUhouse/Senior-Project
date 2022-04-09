@@ -12,5 +12,6 @@
 
     HTMLHeader();
     PageNav();
+    PageFooter();
     HTMLEnd();
 ?>

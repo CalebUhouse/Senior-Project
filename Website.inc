@@ -65,4 +65,14 @@
         </nav>
 <?php
     }
+    // inserts the footer
+    function PageFooter()
+    {
+?>
+        <footer>
+            <p class="centered">Something Not Look Right?</p>
+            <p class="centered">Email cmu8706@lockhaven.edu for support!</p>
+        </footer>
+<?php
+    }
 ?>

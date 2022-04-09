@@ -12,26 +12,26 @@ body    {
     background-color: rgb(148, 24, 24);
 }
 header  {
-    border: 2px solid black;
+    border: 2px solid silver;
     grid-area: header;
 }
 nav     {
-    border: 2px solid black;
+    border: 2px solid silver;
     grid-area: nav;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     min-height: 20px;
 }
 aside   {
-    border: 2px solid black;
+    border: 2px solid silver;
     grid-area: aside;
 }
 section {
-    border: 2px solid black;
+    border: 2px solid silver;
     grid-area: section;
 }
 footer  {
-    border: 2px solid black;
+    border: 2px solid silver;
     grid-area: footer;
 }
 .section-header {
@@ -54,6 +54,12 @@ button.sportsnav {
 .heading {
     font-size: 50px;
     text-decoration: none;
+}
+p {
+    color: white;
+}
+.centered {
+    text-align: center;
 }
 
 .regbtn {
