@@ -1,0 +1,216 @@
+Athlete_ID,Name,Weight,Height,Gender,Position,Sport_ID
+1,Cameron Kutchey,220 lbs,6'1, Male,Outfield / Infield,1
+2,Gavin Troutman,170 lbs,"5'8""",Male,Infield,1
+3,Ryan Terrizzi,175 lbs,"5'10""",Male,Pitcher,1
+4,Blaise Zeiders,195 lbs,"6'0""",Male,Pitcher / Outfield,1
+5,Matt Lingenfelter,180 lbs,"6'0""",Male,Pitcher / Outfield,1
+6,Andrew Ramirez,135 lbs,"5'5""",Male,Outfield,1
+7,Joe Shannon,220 lbs,"6'3""",Male,3rd Base / 1st Base,1
+8,Camden Moors,180 lbs,"5'9""",Male,2nd Base / Pitcher,1
+9,Jared Colledge,190 lbs,"6'0""",Male,Pitcher,1
+10,Rylan Bailey,210 lbs,"6'3""",Male,Pitcher / Infield,1
+11,Jake Mastillo,210 lbs,"6'1""",Male,Catcher,1
+12,Kevin Worek,220 lbs,"6'5""",Male,Pitcher / Infield,1
+13,Aedan Walter,170 lbs,"6'2""",Male,Pitcher,1
+14,Kohen  Stover,185 lbs,"6'3""",Male,Pitcher / Infield,1
+15,David Keller,175 lbs,"5'7""",Male,Pitcher,1
+16,Garrett Starr,200 lbs,"6'1""",Male,Infield,1
+17,Gabe Stirr,185 lbs,"5'9""",Male,Outfield,1
+18,Justin  Lichtenwalner,220 lbs,"5'11""",Male,Pitcher / Outfield,1
+19,Lukas Schultz,235 lbs,"6'1""",Male,3rd Base,1
+20,RJ Kruse,225 lbs,"6'3""",Male,Pitcher,1
+21,Garrett Nepert,195 lbs,"6'0""",Male,Catcher,1
+22,Brandon Lingenfelter,185 lbs,"5'10""",Male,Pitcher,1
+23,Matt Pennoni,175 lbs,"6'0""",Male,Pitcher,1
+24,Nick White,185 lbs,"6'2""",Male,Infield,1
+25,Bryce Ratliff,155 lbs,"6'2""",Male,Infield,1
+26,Brendan Jordan,205 lbs,"6'4""",Male,Outfield,1
+27,Zach Kaatz,210 lbs,"6'3""",Male,Infield,1
+28,Justin White,190 lbs,"5'11""",Male,Wide Receiver,2
+29,Austin Barber,205 lbs,"5'11""",Male,Linebacker,2
+30,Kahari Kirklin-Whitfield,205 lbs,"6'2""",Male,Defensive Back,2
+31,Darryl Pollard,175 lbs,"5'10""",Male,Defensive Back,2
+32,Ethan Persa,215 lbs,"6'4""",Male,Quarterback,2
+33,Monte Jones,210 lbs,"5'10""",Male,Linebacker,2
+34,DeAndre Wakefield,175 lbs,"5'11""",Male,Running Back,2
+35,Adam DeGregorio,165 lbs,"5'8""",Male,Wide Receiver,2
+36,Chase Holmes,170 lbs,"6'0""",Male,Wide Receiver,2
+37,Jordan Heisey,195 lbs,"6'2""",Male,Quarterback,2
+38,Charles Richardson,195 lbs,"5'10""",Male,Defensive Back,2
+39,Samuel Barber,190 lbs,"6'2""",Male,Quarterback,2
+40,Chris Hicks,215 lbs,"6'3""",Male,Wide Receiver,2
+41,Shane Scott,225 lbs,"6'0""",Male,Linebacker,2
+42,Josh Maher,230 lbs,"6'6""",Male,Quarterback,2
+43,Zackary Rex,205 lbs,"5'11""",Male,Quarterback,2
+44,Kareem Davis,185 lbs,"5'9""",Male,Wide Receiver,2
+45,Jaime Rodriguez-Vega,195 lbs,"5'10""",Male,Defensive Back,2
+46,Kayir McBride,165 lbs,"5'9""",Male,Wide Receiver,2
+47,Jacob Sturm,205 lbs,"5'9""",Male,Running Back,2
+48,Erik Mann,190 lbs,"5'10""",Male,Defensive Back,2
+49,Mason Grey,165 lbs,"5'8""",Male,Defensive Back,2
+50,Kasan Johnson-Townsend,165 lbs,"6'0""",Male,Defensive Back,2
+51,Dante Graham,210 lbs,"6'1""",Male,Running Back,2
+52,Markel Morgan,175 lbs,"5'11""",Male,Defensive Back,2
+53,Brandon Koch,205 lbs,"6'3""",Male,Defensive Back,2
+54,Brandon Lee,160 lbs,"6'2""",Male,Defensive Back,2
+55,Garrett  Kaufman,185 lbs,"5'11""",Male,Linebacker,2
+56,Dymeir Still,180 lbs,"5'10""",Male,Running Back,2
+57,Tyrese Dore,190 lbs,"6'4""",Male,Linebacker,2
+58,Tony Dressler,225 lbs,"6'2""",Male,Defensive Line,2
+59,Alex Cruz,225 lbs,"6'0""",Male,Tight End,2
+60,Conner Meyer,210 lbs,"6'0""",Male,Linebacker,2
+61,Levi Engle,195 lbs,"6'1""",Male,Defensive Back,2
+62,Jesse  Funk,205 lbs,"6'1""",Male,Punter,2
+63,De'Mond VanBuren,180 lbs,"5'8""",Male,Defensive Back,2
+64,Brandan Talbott,170 lbs,"5'10""",Male,Running Back,2
+65,Brandon Cesky,165 lbs,"6'0""",Male,Wide Receiver,2
+66,Justin Anderson,230 lbs,"5'10""",Male,Defensive Line,2
+67,Levi Krebs,180 lbs,"5'11""",Male,Linebacker,2
+68,Haseem Johnson,250 lbs,"6'0""",Male,Defensive Line,2
+69,Darien Lee,225 lbs,"6'2""",Male,Defensive Line,2
+70,Samuel Hershey,190 lbs,"6'3""",Male,Kicker,2
+71,Ryan Flowers,205 lbs,"5'11""",Male,Long Snapper,2
+72,Chris Anderson,300 lbs,"6'3""",Male,Offensive Line,2
+73,Harrison Rees,275 lbs,"6'1""",Male,Offensive Line,2
+74,Sean McGowan,265 lbs,"6'0""",Male,Offensive Line,2
+75,Zane Gee,275 lbs,"6'4""",Male,Offensive Line,2
+76,John Minnich,310 lbs,"6'1""",Male,Offensive Line,2
+77,Jeff Burkhart,315 lbs,"6'3""",Male,Offensive Line,2
+78,Trevor Miller,280 lbs,"6'1""",Male,Offensive Line,2
+79,Anthony Barber,295 lbs,"6'5""",Male,Offensive Line,2
+80,Edward Leak,350 lbs,"6'4""",Male,Offensive Line,2
+81,Zach Kreider,255 lbs,"6'3""",Male,Offensive Line,2
+82,Joe Turek,290 lbs,"6'3""",Male,Offensive Line,2
+83,Isiah Gonzalez,230 lbs,"6'2""",Male,Tight End,2
+84,Tony Nicassio,175 lbs,"5'11""",Male,Kicker / Punter,2
+85,Kenneth Pettiford,205 lbs,"6'3""",Male,Wide Receiver,2
+86,Kaden Bittinger,180 lbs,"5'9""",Male,Wide Receiver,2
+87,Tommy Bender,175 lbs,"5'9""",Male,Wide Receiver,2
+88,Jadan  Hudson,185 lbs,"5'10""",Male,Wide Receiver,2
+89,Hunter Hess,165 lbs,"5'10""",Male,Kicker,2
+90,Jadin Goodman,180 lbs,"5'11""",Male,Wide Receiver,2
+91,Alex Lantz,190 lbs,"6'2""",Male,Wide Receiver,2
+92,Jesse  Engle,230 lbs,"6'1""",Male,Tight End,2
+93,Devante Embrey-Banks,295 lbs,"6'4""",Male,Defensive Tackle,2
+94,Amir Wahid,260 lbs,"6'1""",Male,Defensive Line,2
+95,Taun Evans,250 lbs,"5'11""",Male,Linebacker,2
+96,Tommy Snyder,220 lbs,"6'1""",Male,Defensive Line,2
+97,Isaiah Reed,265 lbs,"6'1""",Male,Defensive Line,2
+98,Robert Butler IV,265 lbs,"6'4""",Male,Defensive Line,2
+99,Shaheed Salim,270 lbs,"6'0""",Male,Defensive Line,2
+100,Alfred Manyeah,260 lbs,"6'2""",Male,Defensive Tackle,2
+101,Rianna Trexler,,"5'6""",Female,3rd Base,3
+102,Megan  Ryder,,"5'2""",Female,2nd Base,3
+103,Morgan  Karasek,,"5'7""",Female,Outfield,3
+104,Amanda Criss,,"5'3""",Female,Infield,3
+105,Mikayla Ruppert,,"5'7""",Female,Outfield,3
+106,Summer Peters,,"5'7""",Female,Outfield,3
+107,Delaney Good,,"5'4""",Female,Outfield,3
+108,Hailey Jayne,,"5'2""",Female,Utility,3
+109,Kinley Gioglio,,"5'9""",Female,Pitcher,3
+110,Bella Schmitt,,"5'8""",Female,2nd Base,3
+111,Riley McClellan,,"5'7""",Female,Short Stop,3
+112,Jada Schellhammer,,"5'7""",Female,Pitcher / 3rd Base,3
+113,Hunter McClellan,,"5'5""",Female,Utility,3
+114,Madalyn Dydynski,,"5'3""",Female,Pitcher,3
+115,Sydney Arrigale,,"5'8""",Female,Outfield,3
+116,Chloe McElheny,,"5'4""",Female,1st Base,3
+117,Haley Lestician,,"5'7""",Female,1st Base / 3rd Base,3
+118,Madison  Waltman,,"5'7""",Female,Pitcher,3
+119,Carly Fitzmorris,,"5'5""",Female,Guard,4
+120,Nadia Romanchock,,"6'1""",Female,Forward,4
+121,Chandler  Swanson,,"5'6""",Female,Guard,4
+122,Brooke Lawyer,,"5'8""",Female,Guard,4
+123,Maddi Metzler,,"5'7""",Female,Guard,4
+124,Taylor Leidy,,"5'5""",Female,Guard,4
+125,Adaliz Corbin,,"5'11""",Female,Forward,4
+126,Ahnera Parker,,"6'1""",Female,Forward,4
+127,Marena  Lonardi,,"5'11""",Female,Guard,4
+128,Audrey Weigl,,"6'0""",Female,Forward,4
+129,Selena Mann,,"6'1""",Female,Forward,4
+130,Kylie  Metzger,,"6'0""",Female,Forward,4
+131,Jackie Fetsko,,"6'1""",Female,Forward,4
+132,Jaynelle Robinson,,"6'2""",Female,Center,4
+133,Dymir Montague,190 lbs,"6'3""",Male,Guard,5
+134,Chris Vazquez,160 lbs,"5'10""",Male,Guard,5
+135,Eli Washington,180 lbs,"6'0""",Male,Guard,5
+136,MarkAnthony Fidelis,175 lbs,"6'1""",Male,Guard,5
+137,Darryl Wilson,165 lbs,"6'3""",Male,Guard,5
+138,Isaiah Stewart,190 lbs,"6'0""",Male,Guard,5
+139,Adam Freese,195 lbs,"6'5""",Male,Guard / Forward,5
+140,James Price,230 lbs,"6'7""",Male,Forward,5
+141,Jesse McPherson,215 lbs,"6'7""",Male,Forward,5
+142,Damon Gripp,,"6'2""",Male,Guard,5
+143,DaQuan Granberry,185 lbs,"6'5""",Male,Guard,5
+144,Noah Wilson,190 lbs,"6'6""",Male,Forward,5
+145,Kyle Everhart,180 lbs,"6'2""",Male,Guard,5
+146,Nahleige Thompson,150 lbs,"6'6""",Male,Forward,5
+147,Braden Kitt,215 lbs,"6'5""",Male,Forward,5
+148,Aitor Ruiz de Eguilaz,170 lbs,"6'1""",Male,Goalkeeper,6
+149,Jason Keller,175 lbs,"5'11""",Male,Goalkeeper,6
+150,Connor Burke,165 lbs,"6'1""",Male,Defense,6
+151,Samuel Hershey,195 lbs,"6'3""",Male,Forward,6
+152,Caleb Olive,180 lbs,"6'3""",Male,Midfield / Defense,6
+153,Ryan Foskey,165 lbs,"5'9""",Male,Defense,6
+154,Dean Lewis,165 lbs,"5'11""",Male,Midfield / Defense,6
+155,Chase Tackett,175 lbs,"6'0""",Male,Midfield / Defense,6
+156,Justin Douglas,155 lbs,"5'10""",Male,Defense / Midfield,6
+157,Connor Swope,160 lbs,"6'1""",Male,Midfield,6
+158,Beckham Sibiski,190 lbs,"6'2""",Male,Midfield,6
+159,Andrea DiSomma,185 lbs,"5'10""",Male,Midfield / Forward,6
+160,Tom Pombor,170 lbs,"5'10""",Male,Forward / Midfield,6
+161,Duc Do,135 lbs,"5'5""",Male,Midfield / Defense,6
+162,Kolachi Pombor,175 lbs,"5'10""",Male,Midfield,6
+163,Jamison Bohner,150 lbs,"6'1""",Male,Defense,6
+164,Deegan MacLeod,175 lbs,"6'1""",Male,Defense / Midfield,6
+165,Colton Swanson,150 lbs,"5'8""",Male,Defense /Midfield,6
+166,Eion Roman,145 lbs,"5'7""",Male,Midfield / Forward,6
+167,Zane Puhala,165 lbs,"5'11""",Male,Defense / Midfield,6
+168,Austin Kravetz,175 lbs,"5'11""",Male,Forward / Midfield,6
+169,Gabe Leach,170 lbs,"5'10""",Male,Defense / Midfield,6
+170,David  Dries,160 lbs,"5'10""",Male,Defense / Midfield,6
+171,Reginald Wilson,145 lbs,"6'1""",Male,Midfield,6
+172,William  Kamga,175 lbs,"6'1""",Male,Defense,6
+173,Brady Freiwald,190 lbs,"6'0""",Male,Goal Keeper,6
+174,Ghana Cornelius,,"5'6""",Female,Goalkeeper,7
+175,Sydney Cauffman,,"5'4""",Female,Defense,7
+176,Julia Haines,,"5'8""",Female,Midfield,7
+177,Leah Jensen,,"5'3""",Female,Defense,7
+178,Josie Swartz,,"5'3""",Female,Midfield,7
+179,Janessa Swartz,,"5'8""",Female,Forward / Midfield,7
+180,Mayleigh Perkins,,"5'8""",Female,Midfield,7
+181,Quinn McMonagle,,"5'4""",Female,Defense,7
+182,Marley Sprenkel,,"5'6""",Female,Midfield,7
+183,Eva Stoessel,,"5'8""",Female,Midfield,7
+184,Avery  Landrum,,"5'7""",Female,Defense,7
+185,Jocey Francis,,"5'6""",Female,Midfield / Forward,7
+186,Taylor Moritz,,"5'2""",Female,Defense,7
+187,Chloe Canonica,,"5'3""",Female,Midfield / Defense,7
+188,Mickey Heinbaugh,,"5'4""",Female,Midfield,7
+189,Lacey Snyder,,"5'6""",Female,Defender,7
+190,Emily  Shaw,,"5'6""",Female,Midfield,7
+191,Abby Burdyn,,"5'6""",Female,Defense,7
+192,Mackenzie Hernley,,"5'5""",Female,Midfield,7
+193,Abigail Martin,,"5'5""",Female,Defense,7
+194,Ella Hart,,"5'9""",Female,Forward / Midfield,7
+195,Chyanne Cook,,"5'6""",Female,Defense,7
+196,Madeline Foster,,"5'8""",Female,Defense,7
+197,Evelyn Ciaccia,,"5'6""",Female,Forward,7
+198,Jocelynn Kuhns,,"5'9""",Female,Midfield,7
+199,Allie Stover,,"5'10""",Female,Midfield,7
+200,Ang Morrone,,"5'7""",Female,Defense,7
+201,Anna Manley,,"5'1""",Female,Midfield,7
+202,Kalyn  Keen,,"5'1""",Female,Midfield,7
+203,Allyse Filipowich,,"5'0""",Female,Defense,7
+204,Morgan Chiara,,"5'7""",Female,Midfield,7
+205,Kylie Auman,,"5'5""",Female,Goalkeeper,7
+206,Hunter McClellan,,"5'5""",Female,Forward / Midfield,7
+207,Cassie Mitsch,,"5'5""",Female,Forward,7
+208,Montana Casa,,"5'2""",Female,Defense,7
+209,Lea Malone,,"5'2""",Female,Midfield,7
+210,Luca Verello,,"5'6""",Female,Midfield,7
+211,Trinity Seaman,,"5'4""",Female,Defense / Midfield,7
+212,Sydney Stahl,,"5'5""",Female,Forward / Midfield,7
+213,Rachel Morris,,"5'5""",Female,Forward,7
+214,Victoria DiCesare,,"5'7""",Female,Defense,7
+215,Lily Litrun,,"5'10""",Female,Forward,7
