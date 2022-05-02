@@ -5,7 +5,13 @@
 
 ?>
     <section>
-        <body><h1>Men's Football</h1></body>
+        <body>
+            <h1>
+                <?php
+                    DisplaySport(2);
+                ?>
+            </h1>
+        </body>
     </section>
 
 <?php

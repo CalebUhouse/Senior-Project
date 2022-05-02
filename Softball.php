@@ -5,7 +5,13 @@
 
 ?>
     <section>
-        <body><h1>Softball</h1></body>
+        <body>
+            <h1>
+                <?php
+                    DisplaySport(3);
+                ?>
+            </h1>
+        </body>
     </section>
 
 <?php

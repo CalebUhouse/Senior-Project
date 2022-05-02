@@ -5,7 +5,13 @@
 
 ?>
     <section>
-        <body><h1>Women's Basketball</h1></body>
+        <body>
+            <h1>
+                <?php
+                    DisplaySport(4);
+                ?>
+            </h1>
+        </body>
     </section>
 
 <?php

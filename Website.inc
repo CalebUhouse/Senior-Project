@@ -46,7 +46,7 @@
 ?>
         <nav>
             <div class="navigation-bar">
-                <button class="sportsnav regbtn" href="Index.php">Home</button>
+                <button class="sportsnav regbtn"><a href="Index.php" class="webtext">Home</a></button>
             </div>
             <div class="navigation-bar dropdown">
                 <button class="sportsnav dropbtn" onclick="myFunction('men-Dropdown')">Men's Sports</button>
@@ -132,6 +132,96 @@ function Athletes()
 
     // make a select statement to get data from the database
     $SQL = "select name, position, sport_id from athletes;";    
+    
+    // execute the query
+    //      use the query method of the $Connection object
+    $Results = $Connection->query( $SQL );
+
+    // check for results
+    //      $Results will evaluate to true if there data is returned
+    //      from the database, false if no data is returned
+    if ( $Results )
+    {
+
+        // loop through the results
+        //      the fetch_row method returns an array of the column
+        //      data - one item in the array for each column in the
+        //      select statement.
+        //
+        //      the statement in the while will evaluate to false when
+        //      there are no more rows
+        while( $Row = $Results->fetch_row() )
+        {
+            if ( $Row[2] == 1)
+            {
+                // add athlete
+                echo "  <p>".$Row[0]."   ".$Row[1]."   Baseball</p>";
+            }
+            else if ( $Row[2] == 2)
+            {
+                echo "  <p>".$Row[0]."   ".$Row[1]."   Football</p>";
+            }
+            else if ( $Row[2] == 3)
+            {
+                echo "  <p>".$Row[0]."   ".$Row[1]."   Softball</p>";
+            }
+            else if ( $Row[2] == 4)
+            {
+                echo "  <p>".$Row[0]."   ".$Row[1]."   Women's Basketball</p>";
+            }
+            else if ( $Row[2] == 5)
+            {
+                echo "  <p>".$Row[0]."   ".$Row[1]."   Men's Basketball</p>";
+            }
+            else if ( $Row[2] == 6)
+            {
+                echo "  <p>".$Row[0]."   ".$Row[1]."   Men's Soccer</p>";
+            }
+            else if ( $Row[2] == 7)
+            {
+                echo "  <p>".$Row[0]."   ".$Row[1]."   Women's Soccer</p>";
+            }
+            else
+            {
+                echo "  <p>".$Row[0]."   ".$Row[1]."   ".$Row[2]."</p>";
+            }
+        }
+
+    }
+    else
+    {
+        // no results returned
+        echo "<p>No results returned from the query</p>\n";
+    }   
+    
+    // close the connection
+    $Connection->close();
+
+}
+
+function DisplaySport( $Sport )
+{
+    // connect to database
+    $Connection = DatabaseConnect();
+
+    // make a select statement to get data from the database
+    $SQL = "select name, position, sport_id from athletes;";    
+    
+    // execute the query
+    //      use the query method of the $Connection object
+    $Results = $Connection->query( $SQL );
+
+    // check for a successful connection
+    //      connect_error will evaluate to true if there is an error
+    if ( $Connection->connect_error )
+    {
+        // stop the script and echo an error message
+        echo "<h2>Database Error</h2>\n";
+        die( "MySQLi Connection Error: ".$Connection->connect_error."\n" );
+    }
+
+    // make a select statement to get data from the database
+    $SQL = "select name, position, sport_id from athletes where sport_id='".$Sport."';";    
     
     // execute the query
     //      use the query method of the $Connection object

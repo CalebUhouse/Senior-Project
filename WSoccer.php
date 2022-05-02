@@ -5,7 +5,13 @@
 
 ?>
     <section>
-        <body><h1>Women's Soccer</h1></body>
+        <body>
+            <h1>
+                <?php
+                    DisplaySport(7);
+                ?>
+            </h1>
+        </body>
     </section>
 
 <?php
