@@ -1,7 +1,7 @@
 <?php
     require "Website.inc";
 
-    HTMLStart( "Men's Soccer Page" )
+    HTMLStart( "Men's Soccer Page" );
 
 ?>
     <section>
