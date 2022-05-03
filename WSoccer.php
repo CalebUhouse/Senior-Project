@@ -6,11 +6,9 @@
 ?>
     <section>
         <body>
-            <h1>
-                <?php
-                    DisplaySport(7);
-                ?>
-            </h1>
+            <?php
+                DisplaySport(7);
+            ?>
         </body>
     </section>
 
@@ -18,6 +16,7 @@
 
     HTMLHeader();
     PageNav();
+    PageAside();
     PageFooter();
     HTMLEnd();
 ?>

@@ -29,6 +29,10 @@ aside   {
 section {
     border: 2px solid silver;
     grid-area: section;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px 5px;
+    color: white;
 }
 footer  {
     border: 2px solid silver;
@@ -37,6 +41,12 @@ footer  {
 .section-header {
     text-align: center;
     padding: 15px 0px;
+}
+.aside-header {
+    text-align: center;
+}
+.sidetext {
+    padding: 0px 16px;
 }
 .navigation-bar {
     font-size: 20px;

@@ -68,6 +68,22 @@
         </nav>
 <?php
     }
+    //inserts the aside
+    function PageAside()
+    {
+?>
+        <aside>
+            <h1 class="webtext aside-header">
+                About the Website
+            </h1>
+            <p class=sidetext>
+                HavenNFT's is a website built to promote and give recognition to the athletes of Lock Haven University. Each of the
+                atheletes are given an NFT that belongs to them and behaves as if it was a virtual trading card. Only the athelete would 
+                own their card however so there would be only one copy of the NFT in existence.
+            </p>
+        </aside>
+<?php
+    }
     // inserts the footer
     function PageFooter()
     {
@@ -82,9 +98,6 @@
     function DatabaseConnect()
     {
         // set the connection information
-        //      dbase is the server name on the penguin network
-        //      set the $UserName and $Password to your credentials.
-        //      set the $Database to your penguin user name.
         $Server = "localhost";
         $UserName = "root";
         $Password = "";
@@ -155,35 +168,35 @@ function Athletes()
             if ( $Row[2] == 1)
             {
                 // add athlete
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Baseball</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Baseball</div>";
             }
             else if ( $Row[2] == 2)
             {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Football</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Football</div>";
             }
             else if ( $Row[2] == 3)
             {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Softball</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Softball</div>";
             }
             else if ( $Row[2] == 4)
             {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Women's Basketball</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Women's Basketball</div>";
             }
             else if ( $Row[2] == 5)
             {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Men's Basketball</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Men's Basketball</div>";
             }
             else if ( $Row[2] == 6)
             {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Men's Soccer</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Men's Soccer</div>";
             }
             else if ( $Row[2] == 7)
             {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Women's Soccer</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Women's Soccer</div>";
             }
             else
             {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   ".$Row[2]."</p>";
+                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   ".$Row[2]."</div>";
             }
         }
 
@@ -242,39 +255,8 @@ function DisplaySport( $Sport )
         //      there are no more rows
         while( $Row = $Results->fetch_row() )
         {
-            if ( $Row[2] == 1)
-            {
-                // add athlete
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Baseball</p>";
-            }
-            else if ( $Row[2] == 2)
-            {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Football</p>";
-            }
-            else if ( $Row[2] == 3)
-            {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Softball</p>";
-            }
-            else if ( $Row[2] == 4)
-            {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Women's Basketball</p>";
-            }
-            else if ( $Row[2] == 5)
-            {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Men's Basketball</p>";
-            }
-            else if ( $Row[2] == 6)
-            {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Men's Soccer</p>";
-            }
-            else if ( $Row[2] == 7)
-            {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   Women's Soccer</p>";
-            }
-            else
-            {
-                echo "  <p>".$Row[0]."   ".$Row[1]."   ".$Row[2]."</p>";
-            }
+            //add athlete
+            echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   </div>";
         }
 
     }

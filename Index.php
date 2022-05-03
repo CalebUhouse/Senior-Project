@@ -5,12 +5,10 @@
 
 ?>
     <section>
-        <body>
-            <h1>
-                <?php
+        <body class="mainGrid">
+            <?php
                 Athletes();
-                ?>
-            </h1>
+            ?>
         </body>
     </section>
 
@@ -18,6 +16,7 @@
 
     HTMLHeader();
     PageNav();
+    PageAside();
     PageFooter();
     HTMLEnd();
 ?>
