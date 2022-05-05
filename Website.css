@@ -74,6 +74,12 @@ p {
 a {
     text-decoration: none;
 }
+.rightAlign {
+    text-align: right;
+}
+.imagePadding {
+    padding: 0px 15px;
+}
 
 .regbtn {
     background-color: #3498DB;

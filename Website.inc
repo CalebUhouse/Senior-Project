@@ -168,35 +168,35 @@ function Athletes()
             if ( $Row[2] == 1)
             {
                 // add athlete
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Baseball</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   Baseball</div>";
             }
             else if ( $Row[2] == 2)
             {
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Football</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   Football</div>";
             }
             else if ( $Row[2] == 3)
             {
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Softball</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   Softball</div>";
             }
             else if ( $Row[2] == 4)
             {
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Women's Basketball</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   Women's Basketball</div>";
             }
             else if ( $Row[2] == 5)
             {
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Men's Basketball</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   Men's Basketball</div>";
             }
             else if ( $Row[2] == 6)
             {
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Men's Soccer</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   Men's Soccer</div>";
             }
             else if ( $Row[2] == 7)
             {
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   Women's Soccer</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   Women's Soccer</div>";
             }
             else
             {
-                echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   ".$Row[2]."</div>";
+                echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   ".$Row[2]."</div>";
             }
         }
 
@@ -256,7 +256,7 @@ function DisplaySport( $Sport )
         while( $Row = $Results->fetch_row() )
         {
             //add athlete
-            echo "  <div><h1>".$Row[0]."</h1>   ".$Row[1]."   </div>";
+            echo "  <div><img src=defaultprofile.png alt=\"Default profile\" style=\"float:left;width:80px;height:80px;\" class=imagePadding><h1>".$Row[0]."</h1>   ".$Row[1]."   </div>";
         }
 
     }
