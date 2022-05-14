@@ -103,16 +103,10 @@
         $Password = "";
         $Database = "seniorproject";
 
-        // connect to the database
-        //      create a new instance of a mysqli object. this
-        //      object contains the connection to the mysql server
         $Connection = new mysqli( $Server, $UserName, $Password, $Database ); 
 
-        // check for a successful connection
-        //      connect_error will evaluate to true if there is an error
         if ( $Connection->connect_error )
         {
-            // stop the script and echo an error message
             echo "<h2>Database Error</h2>\n";
             die( "MySQLi Connection Error: ".$Connection->connect_error."\n" );
         }
@@ -214,45 +208,24 @@ function Athletes()
 
 function DisplaySport( $Sport )
 {
-    // connect to database
     $Connection = DatabaseConnect();
 
-    // make a select statement to get data from the database
     $SQL = "select name, position, sport_id from athletes;";    
     
-    // execute the query
-    //      use the query method of the $Connection object
     $Results = $Connection->query( $SQL );
 
-    // check for a successful connection
-    //      connect_error will evaluate to true if there is an error
     if ( $Connection->connect_error )
     {
-        // stop the script and echo an error message
         echo "<h2>Database Error</h2>\n";
         die( "MySQLi Connection Error: ".$Connection->connect_error."\n" );
     }
 
-    // make a select statement to get data from the database
     $SQL = "select name, position, sport_id from athletes where sport_id='".$Sport."';";    
     
-    // execute the query
-    //      use the query method of the $Connection object
     $Results = $Connection->query( $SQL );
 
-    // check for results
-    //      $Results will evaluate to true if there data is returned
-    //      from the database, false if no data is returned
     if ( $Results )
     {
-
-        // loop through the results
-        //      the fetch_row method returns an array of the column
-        //      data - one item in the array for each column in the
-        //      select statement.
-        //
-        //      the statement in the while will evaluate to false when
-        //      there are no more rows
         while( $Row = $Results->fetch_row() )
         {
             //add athlete
@@ -266,7 +239,6 @@ function DisplaySport( $Sport )
         echo "<p>No results returned from the query</p>\n";
     }   
     
-    // close the connection
     $Connection->close();
 
 }
